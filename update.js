@@ -2,7 +2,7 @@ const fs = require("fs");
 const puppeteer = require("puppeteer");
 
 const URL = "https://pelotalibres.pe/en-vivo/liga-1-max";
-const PATRON = "fubohd.com/liga1max/";
+const PATRON = "mono.m3u8";
 const ARCHIVO = "liga1.m3u";
 
 async function run() {
